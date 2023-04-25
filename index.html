@@ -96,6 +96,68 @@
   </div>
 
     </section>
+
+    <!--Mais Vendidos-->
+    <section class="carrossel maisVendidos">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+                 <!-- If we need pagination -->
+                 <div class="swiper-pagination"></div>
+   
+    <div class="swiper-wrapper">
+  
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="/imagens/livros/UX.svg" alt="livro ux"></div>
+      <div class="swiper-slide"><img src="/imagens/livros/Liderança.svg" alt="livro liderança"></div>
+      <div class="swiper-slide"><img src="/imagens/livros/Nodejs.svg" alt="livro node"></div>
+      <div class="swiper-slide"><img src="/imagens/livros/MEAN.svg" alt="livro mean"></div>
+      <div class="swiper-slide"><img src="/imagens/livros/Javascript.svg" alt="livro javascript"></div>
+      <div class="swiper-slide"><img src="/imagens/livros/Guia Front-end.svg" alt="livro guia front-end"></div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+  <div class="card">
+    <!--linha1-->
+    <div class="card__descricao">
+        <!--coluna1-->
+        <div class="descricao">
+            <!--Stars start-->
+            <img src="imagens/Star.svg" alt="" class="estrelas">
+            <img src="imagens/Star.svg" alt="" class="estrelas">
+            <img src="imagens/Star.svg" alt="" class="estrelas">
+            <img src="imagens/Star.svg" alt="" class="estrelas">
+            <img src="imagens/Star.svg" alt="" class="estrelas">
+            <!--Stars end-->
+            <h3 class="descricao__titulo">Autora do Mês</h3>
+            <h2 class="descricao__tituloLivro">Juliana Agarikov</h2>
+            <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+        </div>
+        <!--coluna2-->
+        <img src="imagens/Perfil-escritora.svg" alt="perfil escritora" class="descricao__imagem">
+    </div>
+    <!--linha2-->
+    <div class="card__botoes">
+        <!--coluna1-->
+        <ul class="botoes">
+            <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="ícone favoritos"></li>
+            <li class="botoes__item"><img src="imagens/Compras.svg" alt="ícone compras"></li>
+        </ul>
+        <!--coluna2-->
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div>
+  </div>
+
+    </section>
+    <!--Script-->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script>
         const swiper = new Swiper('.swiper', {
