@@ -56,3 +56,23 @@ text-transform: uppercase;
 .container__botao{
     display: none;
 }
+
+.container__titulo{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .container__titulo, .container__titulo--negrito{
+        font-family: var(--fonteSecundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo{
+        font-weight: 300;
+    }
+
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+}
