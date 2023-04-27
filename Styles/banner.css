@@ -34,3 +34,17 @@
     background-position: 1em;
     
 }
+
+@media screen and (min-width: 1024px){
+    .bannerTitulo{
+        font-size: 36px;
+    }
+
+    .bannerSearch{
+        width: 50%;
+    }
+
+    .bannerSearch::placeholder{
+        background-position: 6em;
+    }
+}

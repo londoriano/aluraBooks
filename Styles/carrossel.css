@@ -77,3 +77,9 @@
 .descricao__imagem{
     border-radius: 16px;
 }
+
+@media screen and(min-width: 1024px){
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+}
