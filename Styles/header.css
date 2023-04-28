@@ -61,6 +61,10 @@ text-transform: uppercase;
    display: none;
 }
 
+.containerTexto{
+    display: none;
+}
+
 .opcoes{
     display: none;
 }
@@ -113,4 +117,29 @@ text-transform: uppercase;
         width: auto;
     }
 
+}
+
+@media screen and (min-width: 1728px){
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .container__titulo{
+        margin-right: 1em;
+    }
+
+    .containerTexto{
+        display: block;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .containerLink{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color:var(--preto);
+    }
 }
