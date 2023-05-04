@@ -47,7 +47,12 @@
     .bannerSearch::placeholder{
         background-position: 6em;
     }
-}
+
+    .bannerSearch:hover{
+        width: 60%;
+    }
+    }
+
 
 @media screen and (min-width: 1728px) {
     .bannerSearch{

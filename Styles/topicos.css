@@ -38,6 +38,11 @@
     .topicos_link{
         font-size: 24px;
     }
+
+    .topicos_link:hover{
+        background-color: transparent;
+        border: solid 1px var(--laranja);
+    }
 }
 
 @media screen and (min-width: 1728px){
