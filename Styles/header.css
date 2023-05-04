@@ -31,6 +31,14 @@
     width: 60vw;
 }
 
+.container__botao:checked~.cabecalhoRotulo>.cabecalhoMenuHamburguer{
+    background-image: url("/imagens/Menu\ Aberto.svg");
+}
+
+.container__botao:checked~.cabecalhoRotulo{
+    background: var(--azulDegrade);
+}
+
 .container__botao:checked ~ .listaMenu{
     display: block;
 }
@@ -73,6 +81,7 @@ text-transform: uppercase;
     display:none;
 }
 
+/* Tablet*/
 @media screen and (min-width: 1024px){
 
     .cabecalhoMenuHamburguer{
@@ -112,9 +121,27 @@ text-transform: uppercase;
         display: none;
     }
 
+    #opcoesMenu:checked ~ .opcoesRotulo > .opcoesItem{
+        background: var(--azulDegrade);
+        color: var(--branco);
+    }
+
+    .opcoesItem{
+        padding: 2em 1em;
+    }
+
     #opcoesMenu:checked ~ .listaMenu{
         display: block;
         width: auto;
+    }
+
+    .listaMenuItem:hover{
+        background: var(--azulDegrade);
+    }
+
+    .listaMenuItem > .listaMenuLink:hover{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
     }
 
 }
